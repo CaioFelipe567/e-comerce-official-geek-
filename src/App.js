@@ -1,6 +1,6 @@
 // App.js
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import ProductList from './components/ProductList';
 import ProductDetails from './components/ProductDetails';
@@ -21,17 +21,14 @@ function App() {
     <Router>
       <div className="App">
         <Header cartItemCount={cart.length} />
-        <Switch>
-          <Route exact path="/">
-            <ProductList addToCart={addToCart} />
+        <Routes>
+          <Route exact path="/" element={<ProductList addToCart={addToCart} />}>
           </Route>
-          <Route path="/product/:id">
-            <ProductDetails addToCart={addToCart} />
+          {/* <Route path="/product/:id" element={<ProductDetails/>}> */}
+          {/* </Route> */}
+          <Route path="/cart" element={<Cart cart={cart} removeFromCart={removeFromCart} />}>
           </Route>
-          <Route path="/cart">
-            <Cart cart={cart} removeFromCart={removeFromCart} />
-          </Route>
-        </Switch>
+        </Routes>
       </div>
     </Router>
   );
