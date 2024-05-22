@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 
 const products = [
   { id: 1, title: 'Naruto', price: 20, image: 'naruto.jpg' },
-  { id: 2, title: 'One Piece', price: 25, image: 'one_piece.jpg' },
-  { id: 3, title: 'Dragon Ball Z', price: 22, image: 'dragon_ball_z.jpg' }
+  { id: 2, title: 'One Piece', price: 25, image: 'action-figure-one-piece.png' },
+  { id: 3, title: 'Dragon Ball Z', price: 22, image: 'action-figure-dragon-ball.png' }
 ];
 
 function ProductList({ addToCart }) {
