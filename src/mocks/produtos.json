@@ -38,13 +38,6 @@
     "titulo": "Óculos Redondo",
     "descricao": "Armação metálica em grafite com lentes arredondadas. Sem erro!",
     "preco": 120.0
-  },
-  {
-    "id": 6,
-    "src": "/assets/images/produtos/bolsa.png",
-    "alt": "Cintura, pernas e pés de modelo feminina vestindo sobretudo de cor predominante bege com detalhes em tom vermelho e escuro, com calça e par de sapatos na cor preta, segurando bolsa na cor bege, com fundo de prédio.",
-    "titulo": "Bolsa coringa",
-    "descricao": "Bolsa camel em couro sintético de alta duração. Perfeita!",
-    "preco": 120.0
   }
+  
 ]
