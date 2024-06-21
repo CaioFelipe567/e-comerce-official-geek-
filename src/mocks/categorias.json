@@ -7,9 +7,9 @@
   },
   {
     "id": 2,
-    "src": "/assets/images/categorias/categoria-bolsa.png",
+    "src": "/assets/images/categorias/categoria-cosplay.png",
     "alt": "Bolsa feminina de couro na cor marrom, com cortes quadrados, e alça dourada em formato de corrente com detalhe verde, em fundo verde limão.",
-    "descricao": "Bolsas"
+    "descricao": "Cosplay"
   },
   {
     "id": 3,
@@ -33,6 +33,6 @@
     "id": 6,
     "src": "/assets/images/categorias/categoria-oculos.png",
     "alt": "Óculos de Sol com lentes arredondadas e armação dourada, em fundo verde limão.",
-    "descricao": "Óculos"
+    "descricao": "Acessórios"
   }
 ]
